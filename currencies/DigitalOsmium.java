@@ -108,7 +108,6 @@ public class DigitalOsmium extends BaseCurrency implements Auditable {
         return 5; // Highest access level
     }
 
-
     @Override
     public double getCirculatingSupply() {
         return dOsCirculatingSupply;
@@ -124,4 +123,5 @@ public class DigitalOsmium extends BaseCurrency implements Auditable {
         return dOsCirculatingSupply <= (osmiumReserveWeightKg * UNITS_PER_KG);
     }
 }
+
 
