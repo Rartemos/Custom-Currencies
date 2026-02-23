@@ -8,7 +8,6 @@ import java.util.List;
 /**
  * An abstract base class representing all forms of monetary currency.
  */
-
 public abstract class BaseCurrency implements Valuable, Authorizable, Traceable {
 
     protected String isoCode;
@@ -117,3 +116,4 @@ public abstract class BaseCurrency implements Valuable, Authorizable, Traceable 
      */
     public abstract boolean isConfidential();
 }
+
